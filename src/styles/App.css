@@ -4,6 +4,12 @@
   box-sizing: border-box;  
 }
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap&subset=latin-ext');
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
 h1 {
   font-size: 32px;
   margin-bottom: 30px;
