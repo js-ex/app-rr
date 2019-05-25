@@ -17,7 +17,9 @@ function App() {
           <aside className="app__nav">
             {<Navigation />}
           </aside>
-          <section className="app__page"><Page /></section>
+          <section className="app__page">
+            {<Page />}
+          </section>
         </main>
         <footer className="app__footer">{<Footer />}</footer>
       </div>

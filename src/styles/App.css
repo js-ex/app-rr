@@ -7,21 +7,22 @@
 .app {
   color: #050505;
   margin: 0 auto;
-  width: 70%;
+  width: 68%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 .app__header {
   text-align: center;
-  padding: 50px;
-  min-height: 25vh;
+  min-height: 35vh;
   background-color: #e9e9e9;
 }
 
 .app__main {
   display: flex;
   flex-flow: row wrap;
+  flex-grow: 1;
 }
 
 .app__nav {
