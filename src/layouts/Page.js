@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import PageHome from '../pages/PageHome';
 import PageProducts from '../pages/PageProducts';
+import PageProduct from '../pages/PageProduct';
 import PageContact from '../pages/PageContact';
 import PageAdmin from '../pages/PageAdmin';
 import PageError from '../pages/PageError';
@@ -13,6 +14,7 @@ const Page = () => {
             <Switch>
                 <Route path="/" exact component={PageHome} />
                 <Route path="/products" exact component={PageProducts} />
+                <Route path="/product/:id" exact component={PageProduct} />
                 <Route path="/contact" exact component={PageContact} />
                 <Route path="/admin" exact component={PageAdmin} />
                 <Route path="/login" exact component={PageLogin} />

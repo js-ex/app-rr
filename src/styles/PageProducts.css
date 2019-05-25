@@ -1,0 +1,19 @@
+.app__products ul {
+    padding-left: 20px;
+    list-style: square;
+    font-size: 18px;
+}
+
+.app__products ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.app__products a {
+    color: #333;
+    text-decoration: none;
+}
+
+.app__products a:hover {
+    color: crimson;
+    text-decoration: underline;
+}
