@@ -7,12 +7,3 @@
     font-size: 14px;
     line-break: 1.55;
 }
-
-.app__form-btn {
-    display: block;
-    padding: 10px 20px;
-    font-size: 10px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
